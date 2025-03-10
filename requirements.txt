@@ -1,0 +1,6 @@
+streamlit
+pandas
+string
+pathlib
+bs4
+re
