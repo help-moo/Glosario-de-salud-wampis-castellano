@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import string
 from corpus import df
 from pathlib import Path
 
