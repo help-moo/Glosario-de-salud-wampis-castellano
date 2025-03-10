@@ -57,9 +57,8 @@ with st.container(border=True):
     elif text_search:
         st.info("No se encontraron resultados para la búsqueda.")
     else:
-        # Crear un conjunto de letras que realmente tienen palabras
-        letters_with_results = [letter for letter in string.ascii_uppercase if not df[df["mainheadword"].str.upper().str.startswith(letter)].empty]
-        
+        letters_with_results = sorted(set(df["mainheadword"].dropna().str[0].str.upper()))
+
         if letters_with_results:
             for tab, letter in zip(st.tabs(letters_with_results), letters_with_results):
                 with tab:
