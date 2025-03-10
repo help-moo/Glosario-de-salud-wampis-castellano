@@ -1,4 +1,0 @@
-pandas
-pathlib
-bs4
-re
