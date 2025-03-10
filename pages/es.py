@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
-from corpus import df
 from pathlib import Path
 
 ######### CONFIG #########
 st.set_page_config(
     initial_sidebar_state="collapsed")
 
+@st.cache_data
 def get_first_letter(word):
     word = word.lstrip("¿").strip()  # Elimina "¿" y espacios iniciales
     return word[0].upper() if word else ""
@@ -14,6 +14,10 @@ def get_first_letter(word):
 ######### TITULO #########
 
 st.markdown('## Glosario de salud wampis-castellano')
+
+##################### Cargar CSV #####################
+
+df = pd.read_csv("corpus_entries.csv", encoding="utf-8")
 
 ##################### BUSCADOR y FILTRADO #####################
 

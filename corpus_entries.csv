@@ -1,0 +1,545 @@
+mainheadword,mainheadword_lang,definitionorgloss,definitionorgloss_lang,partofspeech,semanticdomain,audio
+Afta,hub,Afta,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Aishrinñukaitam,hub,¿Tienes esposo?,es,f.int.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/6.wav
+Ajaprukmesha waittsaumek,hub,¿Te ha chocado el embarazo?,es,f.int.,"Motivo
+                                    de consulta",
+Akamakumek,hub,¿Te has cortado?,es,f.int.,"Motivo de
+                                    consulta",AudioVisual/14_1.wav
+Ame,hub,Tú,es,pro,"Términos de
+                                    parentesco",
+Ampi umarumek,hub,¿Has tomado algún medicamento?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/5_2.wav
+Ampikratin aara sukartamu,hub,Receta (médica),es,f.n.,"Tratamientos y
+                                    procedimientos",
+Ampit,hub,Curar,es,v,"Tratamientos y
+                                    procedimientos",
+Ampuj,hub,Intestino,es,sus,"Partes del
+                                    cuerpo",
+Anentai,hub,Corazón,es,sus,"Partes del
+                                    cuerpo",
+Anentaimin antuktatjai,hub,Voy a escuchar tu corazón,es,f.imp.,"Aparato
+                                    cardiovascular",AudioVisual/8_4.wav
+Apa 1,hub,Papá,es,sus,"Términos de
+                                    parentesco",
+Apach,hub,Abuelo,es,sus,"Términos de
+                                    parentesco",
+Arak,hub,Planta,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Aujmattsatsa wakeramu au asamtai                     iniastatjame,hub,Te voy a hacer algunas preguntas,es,f.imp.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/1.wav
+Ayamat,hub,Descansar,es,v,"Tratamientos y
+                                    procedimientos",
+Ayammau,hub,Descanso,es,sus,"Tratamientos y
+                                    procedimientos",
+Cepillo,hub,Cepillo,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Cepillojai yukunmat,hub,Cepillarse,es,v.f.,"Tratamientos y
+                                    procedimientos",
+Cepillojai yukunmita,hub,Cepíllate los dientes,es,f.imp.,Odontoestomatológico,AudioVisual/6_8.wav
+Consultorio,hub,Consultorio,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Cuarto,hub,Cuarto,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Dengue,hub,Dengue,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Diabetes,hub,Diabetes,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Difteria,hub,Difteria,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Doctor,hub,"Doctor, a",es,sus,"Personal médico y
+                                    paciente",
+Ejamtinkaitam. Urutam nantu achika                     weam,hub,¿Estás embarazada? ¿de cuántos meses?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/9_5.wav
+Ekemat,hub,Sentarse,es,v,"Indicaciones para el examen
+                                    físico",
+Ekemsata,hub,Siéntate,es,f.imp.,"Indicaciones para el examen
+                                    físico",
+Enentai senchi peetuk nekapeam,hub,¿Sientes que tu corazón late muy rápido?,es,f.int.,"Aparato
+                                    cardiovascular",AudioVisual/3_4.wav
+Enfermería,hub,Enfermería,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Enfermero,hub,"Enfermero, ra",es,sus,"Personal médico y
+                                    paciente",
+Entsa,hub,Aguado,es,adj,"Fluidos corporales y
+                                    características visibles",
+Esaimu,hub,Mordedura,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Esat,hub,Morder,es,v,"Condiciones médicas y
+                                    enfermedades",
+Férula de yeso,hub,Yeso,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Hepatitis,hub,Hepatitis,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Hija 1,hub,Heces,es,sus,"Fluidos corporales y
+                                    características visibles",
+Hija 2,hub,Diarrea,es,sus,"Fluidos
+                                    corporales y características
+                                    visibles",
+Hijarmat,hub,Dietar,es,v,"Tratamientos y
+                                    procedimientos",
+Hospital,hub,Hospital,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Ii sukutñuri nekatai,hub,Tomar la temperatura,es,v.f.,"Tratamientos y
+                                    procedimientos",
+Ija juki iyamu,hub,Análisis de heces,es,f.n.,"Tratamientos y
+                                    procedimientos",
+Ijareamek,hub,¿Estás con diarrea?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/7_6.wav
+Ijarmamek,hub,¿Estás dietando?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/14_2.wav
+Ijimsha urukuwa,hub,¿De qué color eran las heces?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/11_4.wav
+Ijumamu,hub,Picadura,es,sus,"Condiciones
+                                    dermatológicas",
+Ijumat,hub,Vacunarse,es,v,"Tratamientos y
+                                    procedimientos",
+Ijumatai,hub,Vacuna,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Imakmiñak nekapeam,hub,¿Tienes náuseas?,es,f.int.,Preguntas dirigidas directamente al paciente,
+Imakmiñuk nekapeam,hub,¿Sientes náuseas?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/17_1.wav
+Imakumek,hub,¿Has vomitado?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/3_6.wav
+Imuk,hub,Vómito,es,sus,"Síntomas y condiciones
+                                    físicas",
+Imut,hub,Vomitar,es,v,"Síntomas y condiciones
+                                    físicas",
+Iñaimarta,hub,Saca la lengua,es,f.imp.,"Indicaciones para el examen
+                                    físico",
+Iñaktursata tui najamturma,hub,Muéstrame dónde te duele,es,f.imp.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/6_1.wav
+Iñankat,hub,Trasladar,es,v,"Tratamientos y
+                                    procedimientos",
+Iñannakmesha urutai uchirmakmam,hub,¿Cuándo fue tu último parto?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/11_3.wav
+Iñaraik,hub,¿Se ha caído?,es,f.int.,"Preguntas realizadas a través del
+                                    supervisor del paciente",AudioVisual/21.wav
+Iñarmek najam ajintraum,hub,¿Te has caído y te has golpeado?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/13_1.wav
+Jaa,hub,Paciente,es,sus,"Personal
+                                    médico y paciente",
+Jaamek,hub,¿Estás enfermo?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/3_1.wav
+Jaamusha urutai nankamnamam,hub,¿Desde cuándo estás enfermo?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/5_1.wav
+Jaanch,hub,Remángate,es,f.imp.,"Indicaciones para el examen
+                                    físico",
+Jachitak,hub,Estornudo,es,sus,"Síntomas y condiciones
+                                    físicas",
+Jachitiamu,hub,Estornudar,es,v,"Síntomas y condiciones
+                                    físicas",
+Jasa wajat,hub,Estar quieto,es,v.f.,"Indicaciones para el examen
+                                    físico",
+Jata,hub,Enfermedad,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Jatamkau,hub,Paciente,es,sus,"Personal
+                                    médico y paciente",
+Jika jikamtak nekapeam,hub,¿Sientes pena?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/19.wav
+Juniksha urutam tsawan wea,hub,¿Desde cuándo está así?,es,f.int.,Odontoestomatológico,AudioVisual/5_8.wav
+Kai,hub,Hermana (cuando una mujer se dirige a una mujer),es,sus,"Términos
+                                    de parentesco",
+Kakijmakumek,hub,¿Estás estreñido?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/8_6.wav
+Kankaj,hub,Pierna,es,sus,"Partes del
+                                    cuerpo",
+Kanujatak nekapeam,hub,¿Tienes mucho sueño?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/9_2.wav
+Kanumainchauk nekapeam,hub,¿No puedes dormir?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/10_1.wav
+Kanut,hub,Dormir,es,v,"Tratamientos y
+                                    procedimientos",
+Kara pujamu,hub,Tener sueño,es,v.f.,"Síntomas
+                                    y condiciones físicas",
+Katsuram,hub,Sólido,es,adj,"Fluidos corporales y
+                                    características visibles",
+Kiarai nawemin imamek,hub,¿Tus pies se hinchan por la tarde?,es,f.int.,"Aparato
+                                    cardiovascular",AudioVisual/4_4.wav
+Kitamamek,hub,¿Tienes sed?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/11_2.wav
+Kuchap,hub,Uta,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Kuishnum init saa jauksha                     antatsmek,hub,¿Sientes que te zumban los oídos?,es,f.int.,"Aparato
+                                    cardiovascular",AudioVisual/7_4.wav
+Kujakum najaimamek,hub,¿Te duele cuando tragas?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/1_5.wav
+Kuntu,hub,Brazo,es,sus,"Partes del
+                                    cuerpo",
+Kuntuj,hub,Cuello,es,sus,"Partes
+                                    del cuerpo",
+Kurat,hub,Temblar,es,v,"Síntomas y condiciones
+                                    físicas",
+Malaria,hub,Malaria,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Mayai ajapata,hub,Bota el aire,es,f.imp.,Indicaciones para el examen físico,
+Mayai ashiniamu,hub,Desmayarse,es,v.f.,"Síntomas
+                                    y condiciones físicas",
+Mayai jukita,hub,Toma aire,es,f.imp.,Indicaciones para el examen físico,
+Mayatat,hub,Respirar,es,v,"Indicaciones para el examen
+                                    físico",
+Mayatmainchau nekapeakum mayai ashinkamñusha                     nekapeatsmek,hub,¿Sientes que te falta el aire y te ahogas?,es,f.int.,"Aparato
+                                    respiratorio",AudioVisual/8_3.wav
+Mayatmainchaukesha nekapeatsmek,hub,¿Tienes problemas para respirar?,es,f.int.,"Aparato
+                                    respiratorio",AudioVisual/7_3.wav
+Mayatta estetoscopiojai                     anturkatjame,hub,Respira para escucharte con el estetoscopio,es,f.imp.,"Aparato
+                                    respiratorio",AudioVisual/5_3.wav
+Meer,hub,Riñón,es,sus,"Partes del
+                                    cuerpo",
+Menanmani iimsata,hub,Mira a la izquierda,es,f.imp.,Indicaciones para el examen físico,
+Micha tumachkusha sukutin umamak                     najama,hub,¿Le duele cuando toma algo frío o caliente?,es,f.int.,Odontoestomatológico,AudioVisual/3_9.wav
+Muchitkaipa,hub,No te muevas,es,f.imp.,Indicaciones para el examen físico,
+Mukusa,hub,Oscuro,es,adj,"Fluidos corporales y
+                                    características visibles",
+Muleta,hub,Muletas,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Muntsu,hub,Seno,es,sus,"Partes del
+                                    cuerpo",
+Muuk,hub,Cabeza,es,sus,"Partes del
+                                    cuerpo",
+Muuk najama,hub,Dolor de cabeza,es,v.f.,"Síntomas
+                                    y condiciones físicas",
+Muukem najamawak,hub,¿Te duele la cabeza?,es,f.int.,"Sistema
+                                    nervioso",AudioVisual/1_7.wav
+Naarmisha yait,hub,¿Cómo te llamas?,es,f.int.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/2.wav
+Nai,hub,Diente,es,sus,"Partes del
+                                    cuerpo",
+Nai yuamu,hub,Caries,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Naim najama iñaktursata,hub,Enséñame el diente que te duele,es,f.imp.,Odontoestomatológico,AudioVisual/2_8.wav
+Naimsha uruk kuitameam,hub,¿Cómo cuida sus dientes?,es,f.int.,Odontoestomatológico,AudioVisual/1_8.wav
+Najaimamusha urutai nankamamam,hub,¿Desde cuándo te duele?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/4_2.wav
+Naka iimsata,hub,Mira al frente,es,f.imp.,Indicaciones para el examen físico,
+Nampich,hub,Parásitos,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Nampich ajapamek,hub,¿Has botado parásitos?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/10_3.wav
+Nampichramu,hub,Parasitosis,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Ñañamek,hub,¿Tienes antojos?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/18_1.wav
+Napik esatmi,hub,¿Te ha mordido la serpiente?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/12_1.wav
+Nawan 1,hub,Hija,es,sus,"Términos de
+                                    parentesco",
+Nawan 2,hub,Sobrina,es,sus,"Términos
+                                    de parentesco",
+Nawe,hub,Pie,es,sus,"Partes del
+                                    cuerpo",
+Netsep,hub,Pecho,es,sus,"Partes del
+                                    cuerpo",
+Nii,hub,Él/ella,es,pro,"Términos de
+                                    parentesco",
+Nu nawemea nujaisha shirak                     tarimmainitam,hub,¿Puedes pisar bien con ese pie?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/13_2.wav
+Nuap,hub,Piel,es,sus,"Condiciones
+                                    dermatológicas",
+Nuku 1,hub,Mamá,es,sus,"Términos de
+                                    parentesco",
+Nukuch,hub,Abuela,es,sus,"Términos de
+                                    parentesco",
+Numpa,hub,Sangre,es,sus,"Partes del
+                                    cuerpo",
+Numpa juki iyamu,hub,Análisis de sangre,es,f.n.,"Tratamientos y
+                                    procedimientos",
+Numpa nantu nukapek wainiakmesha urutam tsawanta asame                     iñankam,hub,¿Cuántos días te dura tu menstruación?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/7_5.wav
+Numpa nantu nukapek waintai                     wainiamek,hub,¿Estás menstruando?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/5_6.wav
+Numpa nantu nukapek waintaisha metekak                     wainiam,hub,¿Tienes tu menstruación todos los meses?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/6_6.wav
+Numpa nantu nukapek waintaisha urutam waitsuksha                     weam,hub,¿Desde cuándo no te viene la menstruación?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/8_5.wav
+Numpa numparmatak ijatmakum,hub,¿Has defecado con sangre?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/9_6.wav
+Numpa numparmatak imakum,hub,¿Has vomitado con sangre?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/4_6.wav
+Numpa numparmatak shikitmam,hub,¿Tu orina sale con sangre?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/2_5.wav
+Numpa numparmatcha usukmamek,hub,¿Has tosido con sangre?,es,f.int.,"Aparato
+                                    respiratorio",AudioVisual/4_3.wav
+Numpa puarumek,hub,¿Te ha salido sangre?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/15_1.wav
+Numpem peetum iirsattajme,hub,Voy a tomarte la presión,es,f.imp.,"Aparato
+                                    cardiovascular",AudioVisual/9_4.wav
+Nunka imsata,hub,Mira abajo,es,f.imp.,Indicaciones para el examen físico,
+Nuwenñukaitam,hub,¿Tienes esposa?,es,f.int.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/7.wav
+Pankaita,hub,Levanta la cabeza,es,f.imp.,"Indicaciones para el examen
+                                    físico",
+Papera,hub,Paperas,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Patumar,hub,Viruela,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Peak,hub,Cama,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Peak camilla tutai,hub,Camilla,es,f.n.,"Instrumentos y equipamiento
+                                    médico",
+Peaknum tepesta,hub,Échate en la camilla,es,f.imp.,Indicaciones para el examen físico,
+Pikaj,hub,Lunar,es,sus,"Condiciones
+                                    dermatológicas",
+Pimpimat nekapeamu,hub,Sentirse débil,es,v.f.,"Síntomas y condiciones
+                                    físicas",
+Posta,hub,Posta,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Puju,hub,Blanco,es,adj,"Fluidos corporales y
+                                    características visibles",
+Pukumach,hub,Pus,es,sus,"Fluidos corporales y características
+                                    visibles",
+Purushnamek,hub,¿Tienes escalofríos?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/18_2.wav
+Purushnamu,hub,Escalofrío,es,sus,"Síntomas y condiciones
+                                    físicas",
+Purusrukmau,hub,Sarpullido,es,sus,"Condiciones
+                                    dermatológicas",
+Pushurin,hub,Marrón,es,adj,"Fluidos corporales y
+                                    características visibles",
+Putsu,hub,Pálido,es,adj,"Fluidos corporales y
+                                    características visibles",
+Rabia,hub,Rabia,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Samek,hub,Verde,es,adj,"Fluidos corporales y
+                                    características visibles",
+Sapijmamek,hub,¿Tienes miedo?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/21_1.wav
+Sarampion,hub,Sarampión,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Sarna,hub,Sarna,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Senchi mayatta,hub,Respira profundo,es,f.imp.,Indicaciones para el examen físico,
+Senchik najaimam,hub,¿Te duele mucho?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/3_2.wav
+Senchik seam,hub,¿Sudas mucho?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/11_1.wav
+Senchik seemam,hub,¿Sientes mucho calor?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/8_1.wav
+Senchik tsetsemam,hub,¿Sientes mucho frío?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/9_1.wav
+Shiki,hub,Orina,es,sus,"Fluidos corporales y
+                                    características visibles",
+Shiki iimti,hub,Color de orina,es,f.n.,"Fluidos
+                                    corporales y características
+                                    visibles",
+Shiki juki iyamu,hub,Análisis de orina,es,f.n.,"Tratamientos y
+                                    procedimientos",
+Shikitmakmesha amartauk                     nekapeam,hub,¿Sientes ardor al orinar?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/3_5.wav
+Shikitmakmesha najaimamek,hub,¿Sientes dolor al orinar?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/4_5.wav
+Shir senchik seemam,hub,¿Tienes mucho calor?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/17_2.wav
+Shir senchik tsetsemam,hub,¿Tienes mucho frío?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/16_2.wav
+Silla,hub,Silla,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Silla de ruedas,hub,Silla de ruedas,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Suach,hub,Pulmón,es,sus,"Partes del
+                                    cuerpo",
+Sukutin,hub,Caliente,es,adj,"Síntomas y condiciones
+                                    físicas",
+Sunkur,hub,Gripe,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Sunkur kantekuk kajmim ajapeam,hub,¿Botas flema?,es,f.int.,"Aparato
+                                    respiratorio",AudioVisual/2_3.wav
+Sunkur kantekusha uruk                     iimtiñait,hub,¿De qué color es la flema?,es,f.int.,"Aparato
+                                    respiratorio",AudioVisual/3_3.wav
+Supikmau,hub,Roncha,es,sus,"Condiciones
+                                    dermatológicas",
+Suwe,hub,Garganta,es,sus,"Partes del
+                                    cuerpo",
+"Suwemin iistajai wankata,",hub,"Abre la boca, voy a ver tu garganta",es,f.imp.,"Aparato
+                                    respiratorio",AudioVisual/9_3.wav
+Takarmauwam imanismekek                     takarmam,hub,¿Estás trabajando normal?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/15_2.wav
+Tankarumek,hub,¿Tienes gases?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/6_7.wav
+Tankir,hub,Columna,es,sus,"Partes del
+                                    cuerpo",
+Tantan,hub,Estómago,es,sus,"Partes del
+                                    cuerpo",
+Tepet,hub,Echarse,es,v,"Indicaciones para el examen
+                                    físico",
+Termómetro,hub,Termómetro,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Tétano,hub,Tétanos,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Tifoidea,hub,Tifoidea,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Tikish,hub,Rodilla,es,sus,"Partes del
+                                    cuerpo",
+Tikishim apijiam najamturmawak,hub,¿Te duele cuando doblas la rodilla?,es,f.int.,Preguntas por aparatos y sistemas,AudioVisual/3_7.wav
+Tópico,hub,Tópico,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Tos ferina,hub,Tos ferina,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Tseer,hub,Tibio,es,adj,"Síntomas y condiciones
+                                    físicas",
+Tsentsamu,hub,Operación,es,sus,"Tratamientos y
+                                    procedimientos",
+Tsentsat,hub,Operar,es,v,"Tratamientos y
+                                    procedimientos",
+Tsetsek,hub,Frío,es,adj,"Síntomas y condiciones
+                                    físicas",
+tsuak,hub,Planta medicinal,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Tsuat,hub,Curar usando plantas,es,v,"Tratamientos y
+                                    procedimientos",
+Tsuekmakam,hub,¿Has tenido fiebre?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/10.wav
+Tsuemu,hub,Fiebre,es,sus,"Síntomas y condiciones
+                                    físicas",
+Tsuet,hub,Tener fiebre,es,v,"Síntomas y condiciones
+                                    físicas",
+Tsuk arak umarumek,hub,¿Has tomado alguna planta?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/6_2.wav
+Tsuntsumata,hub,Baja la cabeza,es,f.imp.,Indicaciones para el examen físico,
+Tsupit,hub,Cortar,es,v,"Tratamientos y
+                                    procedimientos",
+Tsuramat,hub,Calambre,es,sus,"Síntomas y condiciones
+                                    físicas",
+Tui iimameam,hub,¿Dónde te haces tu control de embarazo?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/10_2.wav
+Tui ijumtikmam,hub,¿Dónde lo vacunaste?,es,f.int.,"Datos de
+                                    identificacion",AudioVisual/18.wav
+Tui najaimam,hub,¿Dónde te duele?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/2_2.wav
+Tui najaimam iñaktursata,hub,Señálame dónde te duele,es,f.imp.,"Preguntas de
+                                    diagnóstico",AudioVisual/7_2.wav
+Tui tikichcha najaimam,hub,¿Te duele en algún otro lugar?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/7_1.wav
+Tuntup,hub,Espalda,es,sus,"Partes del
+                                    cuerpo",
+Tuntupmesha najaimamek,hub,¿Te duele la espalda?,es,f.int.,"Aparato
+                                    respiratorio",AudioVisual/6_3.wav
+Tuwait irutkamurmin naarisha,hub,¿En qué comunidad vives?,es,f.int.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/4.wav
+Uchi 1,hub,Hijo,es,sus,"Términos de
+                                    parentesco",
+Uchi 2,hub,Sobrino,es,sus,"Términos
+                                    de parentesco",
+Uchi mankatan naarisha tuwait,hub,¿Cómo se llama tu bebé?,es,f.int.,"Datos de
+                                    identificacion",AudioVisual/11.wav
+Uchi naarisha tuwait,hub,¿Cómo se llama tu niño?,es,f.int.,"Datos de
+                                    identificacion",AudioVisual/12.wav
+Uchiram ashamkan jaa,hub,¿Tu niño está enfermo de susto?,es,f.int.,"Preguntas realizadas a través del
+                                    supervisor del paciente",AudioVisual/22.wav
+Uchiram mankattcha urukawa,hub,¿Qué tiene tu bebé?,es,f.int.,"Datos de
+                                    identificacion",AudioVisual/13.wav
+Uchiram senchik utea,hub,¿Tu niño llora mucho?,es,f.int.,"Preguntas realizadas a través del
+                                    supervisor del paciente",AudioVisual/26.wav
+Uchiram tapikaik,hub,¿Tu niño está cutipado?,es,f.int.,"Preguntas realizadas a través del
+                                    supervisor del paciente",AudioVisual/23.wav
+Uchiram tsuemujai jamaka,hub,¿Tu niño ha estado con fiebre?,es,f.int.,"Preguntas realizadas a través del
+                                    supervisor del paciente",AudioVisual/25.wav
+Uchiram yaparatsuak,hub,¿Tu niño no tiene hambre?,es,f.int.,"Preguntas realizadas a través del
+                                    supervisor del paciente",AudioVisual/24.wav
+Uchirmisha urukawa,hub,¿Qué tiene tu niño?,es,f.int.,"Preguntas realizadas a través del
+                                    supervisor del paciente",AudioVisual/14.wav
+Uchirmisha urutai akiñawait,hub,¿Cuándo nació tu niño?,es,f.int.,"Datos de
+                                    identificacion",AudioVisual/15.wav
+Uchirmisha urutam uwi eje wea,hub,¿Qué edad tiene tu niño?,es,f.int.,"Datos de
+                                    identificacion",AudioVisual/16.wav
+Uchisha akiniaksha muukenin jinkiñait atsa                     nawenin,hub,¿El bebé nació de pies o de cabeza?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/12_3.wav
+Ujuk,hub,Tos,es,sus,"Síntomas y condiciones
+                                    físicas",
+Ujuk aruttramuak,hub,¿Tienes tos?,es,f.int.,"Aparato
+                                    respiratorio",AudioVisual/1_2.wav
+Ujutat,hub,Toser,es,v,"Síntomas y condiciones
+                                    físicas",
+Ukunch,hub,Hueso,es,sus,"Partes del
+                                    cuerpo",
+Ukunchik najaimam,hub,¿Te duelen los huesos?,es,f.int.,"Preguntas por aparatos y
+                                    sistemas",AudioVisual/2_6.wav
+Úlcera,hub,Úlcera,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Umai,hub,Hermana (cuando una mujer se dirige a un hombre o cuando un hombre se dirige a una mujer),es,sus,"Términos de
+                                    parentesco",
+Umut,hub,Beber,es,v,"Tratamientos y
+                                    procedimientos",
+Untsurnumani iimsata,hub,Mira a la derecha,es,f.imp.,Indicaciones para el examen físico,
+Urukamtai taam,hub,¿Por qué has venido?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/1_1.wav
+Urutai juisha taamam,hub,¿Cuándo has venido aquí?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/2_1.wav
+Urutai vacunasha ijumtikmam,hub,¿Cuándo fue su última vacuna?,es,f.int.,"Datos de
+                                    identificacion",AudioVisual/17.wav
+Urutam tsawanta nuisha pujam,hub,¿Cuánto tiempo ya vives ahí?,es,f.int.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/5.wav
+Urutam uchi aruttrama,hub,¿Cuántos hijos tienes?,es,f.int.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/8.wav
+Urutma uwi eje weam,hub,¿Cuántos años tienes?,es,f.int.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/3.wav
+Uwej,hub,Mano,es,sus,"Partes del
+                                    cuerpo",
+Uweja tsarauri,hub,Dedo,es,sus,"Partes del
+                                    cuerpo",
+Uwejem kurawak,hub,¿Te tiemblan las manos?,es,f.int.,"Sistema
+                                    nervioso",AudioVisual/3_8.wav
+Uwejme tsarauri umuchkata,hub,Mueve los dedos,es,f.imp.,Indicaciones para el examen físico,
+Uwejme tsaraurisha emawak,hub,¿Se te hinchan los dedos?,es,f.int.,"Preguntas por aparatos y
+                                    sistemas",AudioVisual/4_7.wav
+Uwejmin tura nawemin tempemamek,hub,¿Se te adormecen las manos o los pies?,es,f.int.,"Sistema
+                                    nervioso",AudioVisual/2_7.wav
+Venda,hub,Venda,es,sus,"Instrumentos y equipamiento
+                                    médico",
+Verruga,hub,Verruga,es,sus,"Condiciones
+                                    dermatológicas",
+Wajakim wajamin kankajim                     najamturmaiñawak,hub,¿Te duelen las piernas cuando estás de pie?,es,f.int.,"Aparato
+                                    cardiovascular",AudioVisual/6_4.wav
+Wajakta,hub,Párate,es,f.imp.,"Indicaciones para el examen
+                                    físico",
+Wajat,hub,Pararse,es,v,"Indicaciones para el examen
+                                    físico",
+Wake,hub,Barriga,es,sus,"Partes del
+                                    cuerpo",
+Wake mesemtak nekapeam,hub,¿Te sientes triste?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/20.wav
+Wakemek najaimam,hub,¿Te duele el estómago?,es,f.int.,"Aparato
+                                    digestivo",AudioVisual/5_7.wav
+Wankata,hub,Abre la boca,es,f.imp.,"Indicaciones para el examen
+                                    físico",
+Wari najaimam,hub,¿Qué te duele?,es,f.int.,"Preguntas dirigidas directamente
+                                    al paciente",AudioVisual/4_1.wav
+Wekakmin kankajim najamturmawak,hub,¿Te duelen las piernas cuando caminas?,es,f.int.,"Aparato
+                                    cardiovascular",AudioVisual/5_5.wav
+Wekakum pimpiamek,hub,¿Te agitas cuando caminas?,es,f.int.,"Aparato
+                                    cardiovascular",AudioVisual/1_3.wav
+Wekamainchauk nekapeam,hub,¿Tienes problemas para caminar?,es,f.int.,"Preguntas por aparatos y
+                                    sistemas",AudioVisual/1_6.wav
+Wekamainkaitam,hub,¿Puedes caminar?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/12_2.wav
+Wene,hub,Labio,es,sus,"Partes del
+                                    cuerpo",
+Wenem emenata,hub,Cierra la boca,es,f.imp.,Indicaciones para el examen físico,
+Wetat,hub,Marearse,es,v,"Síntomas y condiciones
+                                    físicas",
+Weteamek,hub,¿Tienes mareos?,es,f.int.,"Sistema
+                                    nervioso",AudioVisual/16_1.wav
+Wii,hub,Yo,es,pro,"Términos de
+                                    parentesco",
+Witijim najaimamek,hub,¿Te duele la parte baja de la espalda (zona lumbar)?,es,f.int.,"Aparato
+                                    urogenital",AudioVisual/1_4.wav
+Yachi,hub,Hermano (de hombre a hombre),es,sus,"Términos de
+                                    parentesco",
+Yajaimpa pujam,hub,¿Con quién vives?,es,f.int.,"Preguntas dirigidas al
+                                    paciente",AudioVisual/9.wav
+Yakai,hub,Hombro,es,sus,"Partes del
+                                    cuerpo",
+Yaki iimsata,hub,Mira arriba,es,f.imp.,Indicaciones para el examen físico,
+Yantakam tepesta,hub,Échate de costado,es,f.imp.,Indicaciones para el examen físico,
+Yapim earaik,hub,¿Se le ha hinchado la cara?,es,f.int.,Odontoestomatológico,AudioVisual/4_8.wav
+Yawea asamek nukap wekamainchau                     nekapeam,hub,¿No puedes caminar mucho porque te cansas?,es,f.int.,"Aparato
+                                    cardiovascular",AudioVisual/2_4.wav
+Yawet,hub,Cansarse,es,v,"Síntomas
+                                    y condiciones físicas",
+Yuattsam wakeramek,hub,¿Tienes ganas de comer?,es,f.int.,"Preguntas de
+                                    diagnóstico",AudioVisual/8_2.wav
+Yunkum,hub,Fiebre amarilla,es,sus,"Condiciones médicas y
+                                    enfermedades",
+Yuta,hub,Comer,es,v,"Tratamientos y
+                                    procedimientos",

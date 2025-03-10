@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from corpus import df
 from pathlib import Path
 
 ######### CONFIG #########
@@ -9,6 +8,10 @@ st.set_page_config(
 
 ######### TITULO #########
 st.markdown('## Glosario de salud wampis-castellano')
+
+##################### Cargar CSV #####################
+
+df = pd.read_csv("corpus_entries.csv", encoding="utf-8")
 
 ##################### BUSCADOR y FILTRADO #####################
 
@@ -27,6 +30,7 @@ with col2:
 df_filtered = df[df["mainheadword"].str.contains(text_search, case=False, na=False)].head(20) if text_search else None
 
 # Función para mostrar entrada
+@st.cache_data
 def render_entry(entry):
     # Mostrar audio si la ruta es válida
     if pd.notna(entry["audio"]):  
