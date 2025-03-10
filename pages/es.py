@@ -66,15 +66,12 @@ with st.container(border=True):
 
 
         # Obtener las letras con resultados
-        letters_with_results = [
-            letter for letter in string.ascii_uppercase
-            if not df[df["definitionorgloss"].apply(get_first_letter) == letter].empty
-        ]
+        letters_with_results = sorted(set(df["definitionorgloss"].dropna().apply(get_first_letter).str.upper()))
 
         if letters_with_results:
             for tab, letter in zip(st.tabs(letters_with_results), letters_with_results):
                 with tab:
-                    df_letter = df[df["definitionorgloss"].apply(get_first_letter) == letter]
+                    df_letter = df[df["definitionorgloss"].apply(get_first_letter).str.upper() == letter]
                     for _, entry in df_letter.iterrows():
                         with st.expander(entry["definitionorgloss"]):
                             render_entry(entry)
