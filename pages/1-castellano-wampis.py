@@ -25,6 +25,20 @@ st.title("Glosario de salud castellano-wampis")
 df = pd.read_csv("corpus_entries.csv", encoding="utf-8")
 
 ##################### Función para renderizar contenido de la entrada #####################
+
+##################### inyectar CSS para modificar .dialog ######################
+st.markdown("""
+<style>
+.st-bp.st-em.st-en.st-eo.st-c1.st-ep.st-ef.st-eq.st-er {
+    padding: 1.5rem 1.5rem 0rem !important;
+}
+
+.st-emotion-cache-2vdko {
+    display: block !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 def render_entry(entry):
     # Audio si existe
     if pd.notna(entry["audio"]):
@@ -36,13 +50,14 @@ def render_entry(entry):
 
     # Información
     st.markdown(f"""
-    <style>
-    .label {{ font-weight: bold; font-size: 14px; margin-top: 6px; }}
-    .value {{ font-size: 13px; margin-bottom: 6px; }}
-    </style>
-    <p class="label">Definición:</p><p class="value">{entry["mainheadword"]}</p>
-    <p class="label">Parte del habla:</p><p class="value">{entry["partofspeech"]}</p>
-    <p class="label">Dominio semántico:</p><p class="value">{entry["semanticdomain"]}</p>
+    <div style="font-size:16px; font-weight:bold;">Definición:</div>
+    <div style="font-size:18px; margin-top:5; margin-bottom:8px;">{entry["mainheadword"]}</div>
+
+    <div style="font-size:16px; font-weight:bold; margin-bottom:4px;">Clase de palabra:</div>
+    <div style="font-size:18px; margin-top:5; margin-bottom:8px;">{entry["partofspeech"]}</div>
+
+    <div style="font-size:16px; font-weight:bold; margin-bottom:4px;">Dominio semántico:</div>
+    <div style="font-size:18px; margin-top:5; margin-bottom:18px;">{entry["semanticdomain"]}</div>
     """, unsafe_allow_html=True)
 
 ##################### Definir el diálogo dinámico #####################

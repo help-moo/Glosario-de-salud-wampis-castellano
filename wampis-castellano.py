@@ -38,6 +38,22 @@ with col2:
 df_filtered = df[df["mainheadword"].str.contains(text_search, case=False, na=False)].head(20) if text_search else None
 
 ##################### Función para mostrar entrada #####################
+
+##################### inyectar CSS para modificar .dialog ######################
+st.markdown("""
+<style>
+.st-bp.st-em.st-en.st-eo.st-c1.st-ep.st-ef.st-eq.st-er {
+    padding: 1.5rem 1.5rem 0rem !important;
+}
+
+.st-emotion-cache-2vdko {
+    display: block !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+######################### St.dialog para mostrar entrada #########################
+
 @st.cache_data
 def render_entry(entry):
     if pd.notna(entry["audio"]):
@@ -48,14 +64,16 @@ def render_entry(entry):
             st.warning(f"Archivo de audio no encontrado: {audio_path}")
 
     st.markdown(f"""
-    <style>
-    .label {{ font-weight: bold; font-size: 14px; margin-top: 6px; }}
-    .value {{ font-size: 13px; margin-bottom: 6px; }}
-    </style>
-    <p class="label">Definición:</p><p class="value">{entry["definitionorgloss"]}</p>
-    <p class="label">Parte del habla:</p><p class="value">{entry["partofspeech"]}</p>
-    <p class="label">Dominio semántico:</p><p class="value">{entry["semanticdomain"]}</p>
+    <div style="font-size:16px; font-weight:bold;">Definición:</div>
+    <div style="font-size:18px; margin-top:0; margin-bottom:8px;">{entry["definitionorgloss"]}</div>
+
+    <div style="font-size:16px; font-weight:bold; margin-bottom:4px;">Clase de palabra:</div>
+    <div style="font-size:18px; margin-top:0; margin-bottom:8px;">{entry["partofspeech"]}</div>
+
+    <div style="font-size:16px; font-weight:bold; margin-bottom:4px;">Dominio semántico:</div>
+    <div style="font-size:18px; margin-top:0; margin-bottom:18px;">{entry["semanticdomain"]}</div>
     """, unsafe_allow_html=True)
+
 
 ##################### Definir el diálogo #####################
 def show_dialog(entry):
