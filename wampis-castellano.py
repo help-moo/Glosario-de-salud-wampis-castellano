@@ -7,8 +7,6 @@ import unicodedata
 ######### CONFIG #########
 st.set_page_config(initial_sidebar_state="collapsed")
 
-
-
 ######### TITULO #########
 st.title("Glosario de salud wampis-castellano")
     
