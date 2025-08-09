@@ -1,19 +1,27 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+import unicodedata
 
 ######### CONFIG #########
 st.set_page_config(initial_sidebar_state="collapsed")
 
 ######### TITULO #########
 st.markdown('## Glosario de salud wampis-castellano')
-
+    
 ##################### Cargar CSV #####################
 df = pd.read_csv("corpus_entries.csv", encoding="utf-8")
 
 ##################### Estado para entrada seleccionada #####################
 if "selected_entry" not in st.session_state:
     st.session_state.selected_entry = None
+
+##################### Función para quitar tildes #####################
+def remove_accents(input_str):
+    return ''.join(
+        c for c in unicodedata.normalize('NFD', str(input_str))
+        if unicodedata.category(c) != 'Mn'
+    )
 
 ##################### BUSCADOR y FILTRADO #####################
 col1, col2 = st.columns([0.8, 0.2], vertical_alignment="bottom")
@@ -61,23 +69,43 @@ with st.container(border=True):
     if df_filtered is not None and not df_filtered.empty:
         st.write(f"Mostrando {len(df_filtered)} resultados:")
         for _, entry in df_filtered.iterrows():
-            if st.button(entry["mainheadword"], key=entry["mainheadword"], use_container_width=True):
+            label = f'**{entry["mainheadword"]}**'
+            if pd.notna(entry["audio"]) and entry["audio"].strip() != "":
+                label += " 🔊"
+            label += f' - {entry["definitionorgloss"]}'
+            if st.button(label, key=entry["mainheadword"], use_container_width=True):
                 st.session_state.selected_entry = entry
                 show_dialog(entry)
     elif text_search:
         st.info("No se encontraron resultados para la búsqueda.")
     else:
-        letters_with_results = sorted(set(df["mainheadword"].dropna().str[0].str.upper()))
+        # Agrupar letras sin acentos
+        first_letters = (
+            df["mainheadword"]
+            .dropna()
+            .apply(lambda w: remove_accents(w.strip())[0].upper() if w.strip() else "")
+        )
+        letters_with_results = sorted(set(first_letters))
+
         if letters_with_results:
             for tab, letter in zip(st.tabs(letters_with_results), letters_with_results):
                 with tab:
-                    df_letter = df[df["mainheadword"].str.upper().str.startswith(letter)]
+                    df_letter = df[
+                        df["mainheadword"].apply(
+                            lambda w: remove_accents(w.strip()).upper().startswith(letter)
+                        )
+                    ]
                     for _, entry in df_letter.iterrows():
-                        if st.button(entry["mainheadword"], key=f"{letter}-{entry['mainheadword']}", use_container_width=True):
+                        label = f'**{entry["mainheadword"]}**'
+                        if pd.notna(entry["audio"]) and entry["audio"].strip() != "":
+                            label += " 🔊"
+                        label += f' - {entry["definitionorgloss"]}'
+                        if st.button(label, key=f"{letter}-{entry['mainheadword']}", use_container_width=True):
                             st.session_state.selected_entry = entry
                             show_dialog(entry)
         else:
             st.info("No hay palabras que empiecen con ninguna letra.")
+
 
 
 # ##################### BUSCADOR wampis #####################

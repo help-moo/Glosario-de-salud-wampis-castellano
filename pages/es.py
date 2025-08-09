@@ -1,13 +1,21 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+import unicodedata
 
 ######### CONFIG #########
 st.set_page_config(initial_sidebar_state="collapsed")
 
+def remove_accents(text):
+    return ''.join(
+        c for c in unicodedata.normalize('NFD', str(text))
+        if unicodedata.category(c) != 'Mn'
+    )
+
 @st.cache_data
 def get_first_letter(word):
-    word = word.lstrip("¿").strip()  # Elimina "¿" y espacios iniciales
+    word = word.lstrip("¿").strip()
+    word = remove_accents(word)
     return word[0].upper() if word else ""
 
 ######### TÍTULO #########
@@ -39,7 +47,7 @@ def render_entry(entry):
 
 ##################### Definir el diálogo dinámico #####################
 def show_dialog(entry):
-    @st.dialog(entry["definitionorgloss"])  # Título del modal = palabra principal
+    @st.dialog(entry["definitionorgloss"])  # Título del modal = definición
     def _():
         render_entry(entry)
     _()
@@ -63,22 +71,30 @@ with st.container(border=True):
     if df_filtered is not None and not df_filtered.empty:
         st.write(f"Mostrando {len(df_filtered)} resultados:")
         for idx, entry in df_filtered.iterrows():
-            if st.button(entry["definitionorgloss"], key=f"btn_search_{idx}", use_container_width=True):
+            label = f'**{entry["definitionorgloss"]}** - {entry["mainheadword"]}'
+            if pd.notna(entry["audio"]) and entry["audio"].strip() != "":
+                label += " 🔊"
+            if st.button(label, key=f"btn_search_{idx}", use_container_width=True):
                 show_dialog(entry)
 
     elif text_search:
         st.info("No se encontraron resultados para la búsqueda.")
 
     else:
-        # Obtener letras que tienen palabras
-        letters_with_results = sorted(set(df["definitionorgloss"].dropna().apply(get_first_letter).str.upper()))
+        # Obtener letras que tienen palabras, normalizadas y sin tilde
+        letters_with_results = sorted(set(df["definitionorgloss"].dropna().apply(get_first_letter)))
 
         if letters_with_results:
             for tab, letter in zip(st.tabs(letters_with_results), letters_with_results):
                 with tab:
-                    df_letter = df[df["definitionorgloss"].apply(get_first_letter).str.upper() == letter]
+                    df_letter = df[
+                        df["definitionorgloss"].apply(lambda w: get_first_letter(w) == letter)
+                    ]
                     for idx, entry in df_letter.iterrows():
-                        if st.button(entry["definitionorgloss"], key=f"btn_{letter}_{idx}", use_container_width=True):
+                        label = f'**{entry["definitionorgloss"]}** - {entry["mainheadword"]}'
+                        if pd.notna(entry["audio"]) and entry["audio"].strip() != "":
+                            label += " 🔊"
+                        if st.button(label, key=f"btn_{letter}_{idx}", use_container_width=True):
                             show_dialog(entry)
         else:
             st.info("No hay palabras que empiecen con ninguna letra.")

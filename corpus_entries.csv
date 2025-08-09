@@ -21,7 +21,7 @@ Anentai,hub,Corazón,es,sus,"Partes del
                                     cuerpo",
 Anentaimin antuktatjai,hub,Voy a escuchar tu corazón,es,f.imp.,"Aparato
                                     cardiovascular",AudioVisual/8_4.wav
-Apa 1,hub,Papá,es,sus,"Términos de
+Apa¹,hub,Papá,es,sus,"Términos de
                                     parentesco",
 Apach,hub,Abuelo,es,sus,"Términos de
                                     parentesco",
@@ -72,9 +72,9 @@ Férula de yeso,hub,Yeso,es,sus,"Instrumentos y equipamiento
                                     médico",
 Hepatitis,hub,Hepatitis,es,sus,"Condiciones médicas y
                                     enfermedades",
-Hija 1,hub,Heces,es,sus,"Fluidos corporales y
+Hija¹,hub,Heces,es,sus,"Fluidos corporales y
                                     características visibles",
-Hija 2,hub,Diarrea,es,sus,"Fluidos
+Hija²,hub,Diarrea,es,sus,"Fluidos
                                     corporales y características
                                     visibles",
 Hijarmat,hub,Dietar,es,v,"Tratamientos y
@@ -223,9 +223,9 @@ Nampichramu,hub,Parasitosis,es,sus,"Condiciones médicas y
                                     al paciente",AudioVisual/18_1.wav
 Napik esatmi,hub,¿Te ha mordido la serpiente?,es,f.int.,"Preguntas dirigidas directamente
                                     al paciente",AudioVisual/12_1.wav
-Nawan 1,hub,Hija,es,sus,"Términos de
+Nawan¹,hub,Hija,es,sus,"Términos de
                                     parentesco",
-Nawan 2,hub,Sobrina,es,sus,"Términos
+Nawan²,hub,Sobrina,es,sus,"Términos
                                     de parentesco",
 Nawe,hub,Pie,es,sus,"Partes del
                                     cuerpo",
@@ -237,7 +237,7 @@ Nu nawemea nujaisha shirak                     tarimmainitam,hub,¿Puedes pisar 
                                     diagnóstico",AudioVisual/13_2.wav
 Nuap,hub,Piel,es,sus,"Condiciones
                                     dermatológicas",
-Nuku 1,hub,Mamá,es,sus,"Términos de
+Nuku¹,hub,Mamá,es,sus,"Términos de
                                     parentesco",
 Nukuch,hub,Abuela,es,sus,"Términos de
                                     parentesco",
@@ -417,9 +417,9 @@ Tuntupmesha najaimamek,hub,¿Te duele la espalda?,es,f.int.,"Aparato
                                     respiratorio",AudioVisual/6_3.wav
 Tuwait irutkamurmin naarisha,hub,¿En qué comunidad vives?,es,f.int.,"Preguntas dirigidas al
                                     paciente",AudioVisual/4.wav
-Uchi 1,hub,Hijo,es,sus,"Términos de
+Uchi¹,hub,Hijo,es,sus,"Términos de
                                     parentesco",
-Uchi 2,hub,Sobrino,es,sus,"Términos
+Uchi²,hub,Sobrino,es,sus,"Términos
                                     de parentesco",
 Uchi mankatan naarisha tuwait,hub,¿Cómo se llama tu bebé?,es,f.int.,"Datos de
                                     identificacion",AudioVisual/11.wav
