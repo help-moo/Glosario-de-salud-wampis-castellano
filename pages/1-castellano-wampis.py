@@ -19,7 +19,7 @@ def get_first_letter(word):
     return word[0].upper() if word else ""
 
 ######### TÍTULO #########
-st.markdown('## Glosario de salud wampis-castellano')
+st.title("Glosario de salud castellano-wampis")
 
 ##################### Cargar CSV #####################
 df = pd.read_csv("corpus_entries.csv", encoding="utf-8")
@@ -56,12 +56,11 @@ def show_dialog(entry):
 col1, col2 = st.columns([0.8, 0.2], vertical_alignment="bottom")
 
 with col1:
-    st.markdown("### Buscador")
     text_search = st.text_input("Buscar por palabra", value="").strip()
 
 with col2:
-    st.page_link('app.py', label="Wampis", use_container_width=True)
-    st.page_link('pages/es.py', label="Castellano", disabled=True, use_container_width=True)
+    st.page_link('wampis-castellano.py', label="Wampis", use_container_width=True)
+    st.page_link('pages/1-castellano-wampis.py', label="Castellano", disabled=True, use_container_width=True)
 
 # Filtrado por búsqueda
 df_filtered = df[df["definitionorgloss"].str.contains(text_search, case=False, na=False)].head(20) if text_search else None

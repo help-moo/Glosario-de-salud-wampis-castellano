@@ -3,11 +3,14 @@ import pandas as pd
 from pathlib import Path
 import unicodedata
 
+
 ######### CONFIG #########
 st.set_page_config(initial_sidebar_state="collapsed")
 
+
+
 ######### TITULO #########
-st.markdown('## Glosario de salud wampis-castellano')
+st.title("Glosario de salud wampis-castellano")
     
 ##################### Cargar CSV #####################
 df = pd.read_csv("corpus_entries.csv", encoding="utf-8")
@@ -27,12 +30,11 @@ def remove_accents(input_str):
 col1, col2 = st.columns([0.8, 0.2], vertical_alignment="bottom")
 
 with col1:
-    st.markdown("### Buscador")
     text_search = st.text_input("Buscar por palabra", value="").strip()
 
 with col2:
-    st.page_link('app.py', label="Wampis", use_container_width=True, disabled=True)
-    st.page_link('pages/es.py', label="Castellano", use_container_width=True)
+    st.page_link('wampis-castellano.py', label="Wampis", use_container_width=True, disabled=True)
+    st.page_link('pages/1-castellano-wampis.py', label="Castellano", use_container_width=True)
 
 # Filtrado por búsqueda
 df_filtered = df[df["mainheadword"].str.contains(text_search, case=False, na=False)].head(20) if text_search else None
