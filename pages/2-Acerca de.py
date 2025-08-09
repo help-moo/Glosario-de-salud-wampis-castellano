@@ -22,7 +22,7 @@ Diseñado y elaborado por miembros del Grupo para el Estudio de Lenguas y Cultur
 **Contacto:** [grupo.estudiolenguas@pucp.edu.pe](mailto:grupo.estudiolenguas@pucp.edu.pe)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/afcda9f3-32bd-4694-84aa-3007cafc5247" alt="GELCOP" width="450" />
+  <img src="https://github.com/user-attachments/assets/afcda9f3-32bd-4694-84aa-3007cafc5247" alt="GELCOP" width="350" />
 </div>
 
 ---

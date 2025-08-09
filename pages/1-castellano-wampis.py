@@ -97,3 +97,12 @@ with st.container(border=True):
                             show_dialog(entry)
         else:
             st.info("No hay palabras que empiecen con ninguna letra.")
+            
+st.markdown("""
+<div style="text-align:center; margin-top:10px; font-size:14px; color:#444;">
+  <p style="font-size:12px; color:#888;">© 2025 GELCOP</p>  
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" style="display:inline-block;">
+    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png" alt="Licencia CC BY-NC-ND 4.0" height="30" />
+  </a>
+</div>
+""", unsafe_allow_html=True)
