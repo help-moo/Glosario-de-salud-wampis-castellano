@@ -3,44 +3,42 @@ import pandas as pd
 from pathlib import Path
 
 ######### CONFIG #########
-st.set_page_config(
-    initial_sidebar_state="collapsed")
+st.set_page_config(initial_sidebar_state="collapsed")
 
 ######### TITULO #########
 st.markdown('## Glosario de salud wampis-castellano')
 
 ##################### Cargar CSV #####################
-
 df = pd.read_csv("corpus_entries.csv", encoding="utf-8")
 
-##################### BUSCADOR y FILTRADO #####################
+##################### Estado para entrada seleccionada #####################
+if "selected_entry" not in st.session_state:
+    st.session_state.selected_entry = None
 
-col1, col2 = st.columns([0.8, 0.2],vertical_alignment = "bottom")
+##################### BUSCADOR y FILTRADO #####################
+col1, col2 = st.columns([0.8, 0.2], vertical_alignment="bottom")
 
 with col1:
     st.markdown("### Buscador")
     text_search = st.text_input("Buscar por palabra", value="").strip()
 
 with col2:
-    st.page_link('app.py', label= "Wampis", use_container_width = True, disabled=True)
-    st.page_link('pages/es.py',label = "Castellano", use_container_width = True)
-    
+    st.page_link('app.py', label="Wampis", use_container_width=True, disabled=True)
+    st.page_link('pages/es.py', label="Castellano", use_container_width=True)
 
 # Filtrado por búsqueda
 df_filtered = df[df["mainheadword"].str.contains(text_search, case=False, na=False)].head(20) if text_search else None
 
-# Función para mostrar entrada
+##################### Función para mostrar entrada #####################
 @st.cache_data
 def render_entry(entry):
-    # Mostrar audio si la ruta es válida
-    if pd.notna(entry["audio"]):  
+    if pd.notna(entry["audio"]):
         audio_path = Path(entry["audio"])
         if audio_path.exists():
             st.audio(str(audio_path), format="audio/wav", autoplay=False)
         else:
             st.warning(f"Archivo de audio no encontrado: {audio_path}")
 
-    # Mostrar información de la entrada
     st.markdown(f"""
     <style>
     .label {{ font-weight: bold; font-size: 14px; margin-top: 6px; }}
@@ -51,25 +49,33 @@ def render_entry(entry):
     <p class="label">Dominio semántico:</p><p class="value">{entry["semanticdomain"]}</p>
     """, unsafe_allow_html=True)
 
-# Mostrar resultados de búsqueda o pestañas alfabéticas
+##################### Definir el diálogo #####################
+def show_dialog(entry):
+    @st.dialog(entry["mainheadword"])  # Usar la palabra como título
+    def _():
+        render_entry(entry)
+    _()
+
+##################### Mostrar resultados #####################
 with st.container(border=True):
     if df_filtered is not None and not df_filtered.empty:
         st.write(f"Mostrando {len(df_filtered)} resultados:")
         for _, entry in df_filtered.iterrows():
-            with st.expander(entry["mainheadword"]):
-                render_entry(entry)
+            if st.button(entry["mainheadword"], key=entry["mainheadword"], use_container_width=True):
+                st.session_state.selected_entry = entry
+                show_dialog(entry)
     elif text_search:
         st.info("No se encontraron resultados para la búsqueda.")
     else:
         letters_with_results = sorted(set(df["mainheadword"].dropna().str[0].str.upper()))
-
         if letters_with_results:
             for tab, letter in zip(st.tabs(letters_with_results), letters_with_results):
                 with tab:
                     df_letter = df[df["mainheadword"].str.upper().str.startswith(letter)]
                     for _, entry in df_letter.iterrows():
-                        with st.expander(entry["mainheadword"]):
-                            render_entry(entry)
+                        if st.button(entry["mainheadword"], key=f"{letter}-{entry['mainheadword']}", use_container_width=True):
+                            st.session_state.selected_entry = entry
+                            show_dialog(entry)
         else:
             st.info("No hay palabras que empiecen con ninguna letra.")
 
